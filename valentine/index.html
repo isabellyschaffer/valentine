@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Feliz dia dos Namorados</title>
+</head>
+<body>
+    <header>
+        <div id="hcont"> 
+            <button onclick="bemVindo()" id="clog">Seja Bem-vindo!</button>
+            <button onclick="aproveiteAmor()" id="log">Aproveite nossos vídeos</button>
+            <h1>Dois anos de namoro</h1> 
+            <a href="#" onclick="calculaCesta" class="car">Praia do Rosa</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="products-container">
+            <h2>Escolha um dos temas e será direcionado a um vlog!</h2>
+            <article class="card">
+                <div class="product-image" id="img-1"></div>
+                <h3>Sua linda namorada</h3>
+                <p>Data: <span id="ln" class="bold">todos os dias</span></p>
+                <a class="btn" onclick="compraLN()" href="https://www.amazon.com.br/Boneco-Marvel-Olympus-Homem-Aranha/dp/B08H6V6XRH" target="_blank">Quero ver</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-2"></div>
+                <h3>Sexta-feira</h3>
+                <p>Data: <span id="sf" class="bold">31-05</span></p>
+                <a class="btn" onclick="diaSexta()" href="https://www.amazon.com.br/Marvel-Avengers-Titan-Hero-Figura/dp/B0CHZ2J5FQ" target="_blank">Quero ver</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-3"></div>
+                <h3>Sábado</h3>
+                <p>Data: <span id="sb" class="bold">01-06</span></p>
+                <a class="btn" onclick="diaSabado()" href="https://www.amazon.com.br/Boneco-9-5-Figura-Olympus-Hulk/dp/B07YDVNM6G" target="_blank">Quero ver</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-4"></div>
+                <h3>Domingo</h3>
+                <p>Data: <span id="dm" class="bold">02-06</span></p>
+                <a class="btn" onclick="diaDomingo()" href="https://www.amazon.com.br/Boneco-Marvel-Olympus-Homem-Ferro/dp/B08H788QYD" target="_blank">Quero ver</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-5"></div>
+                <h3>Comidas</h3>
+                <p>Data: <span id="dm" class="bold">todas</span></p>
+                <a class="btn" onclick="Comidas()" href="https://www.amazon.com.br/Boneco-Marvel-Olympus-Homem-Ferro/dp/B08H788QYD" target="_blank">Quero ver</a>
+            </article>
+            <article class="card">
+                <div class="product-image" id="img-6"></div>
+                <h3>Feliz dia dos namorados</h3>
+                <p>Sobre: <span id="dm" class="bold">eu te amar</span></p>
+                <a class="btn" onclick="euTeamo()" href="https://www.amazon.com.br/Boneco-Marvel-Olympus-Homem-Ferro/dp/B08H788QYD" target="_blank">Quero ver</a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer id="rodape">
+        <h2>Informaçoes sobre o site</h2>
+        <p><span class="bold">Theo e Isa</span> &copy; 2024</p>
+    </footer>
+</body>
+</html>
